@@ -1,0 +1,83 @@
+.navbar{
+  text-align: center;
+}
+.navbar ul{
+  display: block;
+}
+.navbar ul li{
+  margin-bottom: 1vw;
+  background: salmon;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  font-style: italic; font-weight: bold;
+  text-transform: uppercase;
+}
+.carddemoBasicUsage md-card {
+  min-height: 250px; }
+
+md-card>:not(md-card-content) img, md-card>img {
+  box-sizing : border-box;
+}
+.logoBook{
+  position: absolute;
+  right: 0;
+}
+.logoBook img{
+  width: 10vw;
+  z-index: 1;
+}
+body {
+  position:relative;
+}
+
+.intro {
+  position:absolute;
+  left:30px;
+  top:20px;
+  width : 600px;
+  height: 20px;
+}
+
+.demo {
+  position:relative;
+  width : 600px;
+  height : 300px;
+  background-color: #aeaeae;
+  margin-top:40px;
+  margin-left:0px;
+}
+
+.demo a {
+  text-decoration: none !important;
+  color: white;
+  height:100%;
+  width:100%;
+}
+
+.demo a.visited {
+  color:white;
+}
+
+.demo #content {
+  background-color: rgb(255, 244, 220);
+  padding:30px;
+  font-weight:600;
+  border: 1px solid #aeaeae;
+  border-top:none;
+}
+.tabsdemoDynamicHeight md-content {
+  background-color: transparent !important; 
+}
+.tabsdemoDynamicHeight md-content md-tabs {
+  background: #f6f6f6;
+  border: 1px solid #e1e1e1;
+}
+  .tabsdemoDynamicHeight md-content md-tabs md-tabs-wrapper {
+  background: white;
+}
+.tabsdemoDynamicHeight md-content h1:first-child {
+  margin-top: 0;
+}

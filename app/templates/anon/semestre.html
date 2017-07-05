@@ -1,0 +1,132 @@
+<md-content class="md-no-momentum">
+  <form method="post" ng-submit="addSemestre()">
+    <md-input-container class="md-icon-float md-block">
+      <label>Semestre N°</label>
+      <md-select ng-model="semestre.number">
+        <md-option ng-value="semestre.name" ng-repeat="semestre in semestres">{{semestre.name}}</md-option>
+      </md-select>
+    </md-input-container>
+    <md-input-container class="md-icon-float md-block">
+      <label>Detail Semestre</label>
+      <input ng-model="semestre.describeSemestre" type="text">
+    </md-input-container>
+    <md-input-container class="md-icon-float md-block">
+      <label>UE n°</label>
+      <input ng-model="semestre.ue" type="text">
+    </md-input-container>
+    <md-input-container class="md-icon-float md-block">
+      <label>Detail UE</label>
+      <input ng-model="semestre.describeUe" type="text">
+    </md-input-container>
+    <button type="button" ng-click="addSemestre()" name="button">Ajouter un Semestre</button>
+  </form>
+
+
+  <!-- <div ng-cloak>
+    <md-content>
+      <md-tabs md-dynamic-height md-border-bottom>
+        <md-tab label="Semestre 1">
+          <md-content class="md-padding">
+            <form method="post" ng-submit="addSemestre()">
+              <md-input-container class="md-icon-float md-block">
+                <label>Detail Semestre</label>
+                <input ng-model="semestre.describeSemestre" type="text">
+              </md-input-container>
+              <md-input-container class="md-icon-float md-block">
+                <label>UE n°</label>
+                <input ng-model="semestre.ue" type="text">
+              </md-input-container>
+              <md-input-container class="md-icon-float md-block">
+                <label>Detail UE</label>
+                <input ng-model="semestre.describeUe" type="text">
+              </md-input-container>
+              <button type="button" ng-click="addSemestre()" name="button">Ajouter un Semestre</button>
+            </form>
+          </md-content>
+        </md-tab>
+
+
+        <md-tab label="Semestre 2">
+          <md-content class="md-padding">
+            <form method="post" ng-submit="addSemestre()">
+              <md-input-container class="md-icon-float md-block">
+                <label>Detail Semestre</label>
+                <input ng-model="semestre.describeSemestre" type="text">
+              </md-input-container>
+              <md-input-container class="md-icon-float md-block">
+                <label>UE n°</label>
+                <input ng-model="semestre.ue" type="text">
+              </md-input-container>
+              <md-input-container class="md-icon-float md-block">
+                <label>Detail UE</label>
+                <input ng-model="semestre.describeUe" type="text">
+              </md-input-container>
+              <button type="button" ng-click="addSemestre()" name="button">Ajouter un Semestre</button>
+            </form>
+          </md-content>
+        </md-tab>
+
+        <md-tab label="Semestre 3">
+          <md-content class="md-padding">
+            <form method="post" ng-submit="addSemestre()">
+              <md-input-container class="md-icon-float md-block">
+                <label>Detail Semestre</label>
+                <input ng-model="semestre.describeSemestre" type="text">
+              </md-input-container>
+              <md-input-container class="md-icon-float md-block">
+                <label>UE n°</label>
+                <input ng-model="semestre.ue" type="text">
+              </md-input-container>
+              <md-input-container class="md-icon-float md-block">
+                <label>Detail UE</label>
+                <input ng-model="semestre.describeUe" type="text">
+              </md-input-container>
+              <button type="button" ng-click="addSemestre()" name="button">Ajouter un Semestre</button>
+            </form>
+          </md-content>
+        </md-tab>
+
+
+        <md-tab label="Semestre 4">
+          <md-content class="md-padding">
+            <form method="post" ng-submit="addSemestre()">
+              <md-input-container class="md-icon-float md-block">
+                <label>Detail Semestre</label>
+                <input ng-model="semestre.describeSemestre" type="text">
+              </md-input-container>
+              <md-input-container class="md-icon-float md-block">
+                <label>UE n°</label>
+                <input ng-model="semestre.ue" type="text">
+              </md-input-container>
+              <md-input-container class="md-icon-float md-block">
+                <label>Detail UE</label>
+                <input ng-model="semestre.describeUe" type="text">
+              </md-input-container>
+              <button type="button" ng-click="addSemestre()" name="button">Ajouter un Semestre</button>
+            </form>
+          </md-content>
+        </md-tab>
+
+
+        <md-tab label="Semestre 5">
+          <md-content class="md-padding">
+            <form method="post" ng-submit="addSemestre()">
+              <md-input-container class="md-icon-float md-block">
+                <label>Detail Semestre</label>
+                <input ng-model="semestre.describeSemestre" type="text">
+              </md-input-container>
+              <md-input-container class="md-icon-float md-block">
+                <label>UE n°</label>
+                <input ng-model="semestre.ue" type="text">
+              </md-input-container>
+              <md-input-container class="md-icon-float md-block">
+                <label>Detail UE</label>
+                <input ng-model="semestre.describeUe" type="text">
+              </md-input-container>
+              <button type="button" ng-click="addSemestre()" name="button">Ajouter un Semestre</button>
+            </form>
+          </md-content>
+        </md-tab>
+      </md-tabs>
+    </md-content>
+  </div> -->
